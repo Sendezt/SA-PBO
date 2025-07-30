@@ -6,10 +6,10 @@ public class kelilingsegitiga {
 
         if(sisiA + sisiB > sisiC && sisiA + sisiC > sisiB & sisiB + sisiC > sisiA) {
             float keliling = sisiA + sisiB + sisiC;
-            System.out.println("panjang sisi A: " + sisiA);
-            System.out.println("panjang sisi B: " + sisiB);
-            System.out.println("panjang sisi C: " + sisiC);
-            System.out.println("Keliling segitiga: " + keliling);
+            System.out.println("panjang sisi A: " + sisiA + "cm");
+            System.out.println("panjang sisi B: " + sisiB + "cm");
+            System.out.println("panjang sisi C: " + sisiC + "cm");
+            System.out.println("Keliling segitiga: " + keliling + "cm");
         } else {
             System.out.println("Tidak dapat membentuk segitiga dengan panjang sisi yang diberikan.");
         }
